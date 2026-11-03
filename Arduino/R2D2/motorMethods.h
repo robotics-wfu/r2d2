@@ -1,7 +1,9 @@
 #ifndef MOTOR_METHODS
 #define MOTOR_METHODS
 //^ keeps the definitions file from running twice
-// shouldnt be needed but better safe than sorry
+
+#include <stdint.h>
+#include <Arduino.h>
 
 //struct definitions are available to anyone who includes this file
 struct Motor {
@@ -12,7 +14,7 @@ struct Motor {
 
 //static methods are only available in this file (like private methods)
 //others are available to anyone who includes this file
-static void setMotor(int motorIndex, int8_t speed);
+void setMotor(struct Motor *motor, int16_t speed);
 void setLeftMotor(int8_t speed);
 void setRightMotor(int8_t speed);
 

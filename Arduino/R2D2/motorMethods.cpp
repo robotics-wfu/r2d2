@@ -1,10 +1,11 @@
-#inlcude "motorMethods.h"
+#include "motorMethods.h"
 
-//these are local to this file - however im not sure if there is a namespace overlap for the main ino file?
+
+//these are local to this file
 struct Motor leftMotor;
 struct Motor rightMotor;
 
-static void setMotor(struct Motor *motor, int8_t speed) {
+void setMotor(struct Motor *motor, int16_t speed) {
   //TODO 
 }
 
