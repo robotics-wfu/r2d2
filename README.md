@@ -11,6 +11,12 @@ https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/
 - NewPing ultrasonic library for Arduino: https://docs.arduino.cc/libraries/newping/
 - Possible RC remote and receiver: https://dronebotworkshop.com/radio-control-arduino-car/
 
+Libraries and helpful Arduino docs
+- 
+- Serial read/write: https://docs.arduino.cc/language-reference/en/functions/communication/serial/
+- digital read and write: https://docs.arduino.cc/learn/microcontrollers/digital-pins/
+- pwm: https://docs.arduino.cc/learn/microcontrollers/analog-output/
+
 Setting up Arduino IDE and the ESP32 board, running the file downloaded from Github
 - 
 - Download the arduino ide - it is needed to flash the microcontrollers https://www.arduino.cc/en/software/
